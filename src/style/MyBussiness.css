@@ -1,0 +1,118 @@
+.bussiness-container{
+    background-image: linear-gradient(90deg, rgb(176, 249, 150), rgb(245, 169, 254));
+}
+.main-head-opacity{
+    font-size: 4rem;
+    background-color: rgb(251, 230, 203);
+    font-weight: 800;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bussiness-text-box{
+    padding: 0 100px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bussiness-grow-text{
+    align-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 9px 9px 20px black;
+}
+.bussiness-grow-text img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 4px red;
+    margin: 0 20px
+}
+.bussiness-text p{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.bussiness-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: -20px;
+}
+.bussiness-text h2{
+    font-size: 2rem;
+}
+.leadsguru-img{
+    width: 400px;
+}
+
+.bussiness-grow-text{
+    width: 250px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 20px;
+    display: flex;
+}
+
+/* product-card */
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-card{
+    width: 350px;
+    margin: 50px 20px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    height: 500px;
+    box-shadow: 10px 10px 10px 3px black;
+}
+.product-image{
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+}
+.product-price{
+    margin: -45px 0 0 180px;
+    display: flex;
+}
+.product-price h3{
+    margin-right: 10px;
+}
+.product-price h5{
+    text-decoration: line-through;
+}
+.product-catd-text{
+    margin-left: 30px;
+}
+.product-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.product-courses{
+    font-weight: 600;
+}
+.product-card p{
+    border: 1px solid black;
+}
+.product-desc{
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.product-button{
+    background-image: linear-gradient(90deg, #fa0fcb, #0984ff);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+    position: absolute;
+    color: white;
+}

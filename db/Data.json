@@ -1,0 +1,69 @@
+{
+    "Data":[
+        {
+            "id": 1,
+            "title": "Bronze Package",
+            "courses": "4 Courses",
+            "price": "2,500",
+            "orgprice":"1,899",
+            "image": "https://leadsguru7231.leadsguru.in/UploadImages/28b0b275-fae1-4033-8dc0-561c7dc5873b_profile.png",
+            "desc":[
+                "Live Q&A Support",
+                "140k+ Students Enrolled",
+                "LeadsGuru Certificate"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Silver Package",
+            "courses": "12 Courses",
+            "price": "3,999",
+            "orgprice":"3,499",
+            "image":"https://leadsguru7231.leadsguru.in/UploadImages/693b7bb4-38bc-4cef-a2ed-b137fd73eef8_profile.jpg",
+            "desc":[
+                "Live Q&A Support",
+                "90k+ Students Enrolled",
+                "LeadsGuru Certificate"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Gold Package",
+            "courses": "20 Courses",
+            "price": "7,999",
+            "orgprice":"6,999",
+            "image": "https://leadsguru7231.leadsguru.in/UploadImages/a1924b66-8a01-42b9-b4a5-accb29b51ac8_profile.jpg",
+            "desc":[
+                "Live Q&A Support",
+                "70k+ Students Enrolled",
+                "LeadsGuru Certificate"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Platinum Package",
+            "courses": "22 Courses",
+            "price": "13,999",
+            "orgprice":"12,999",
+            "image": "https://leadsguru7231.leadsguru.in/UploadImages/d438e5ce-aebd-4c58-a035-7c4d6b32d42b_profile.jpg",
+            "desc":[
+                "Live Q&A Support",
+                "50k+ Students Enrolled",
+                "LeadsGuru Certificate"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Diamond package",
+            "courses": "25 Courses",
+            "price": "29,999",
+            "orgprice":"19,999",
+            "image": "https://leadsguru7231.leadsguru.in/UploadImages/77d1b807-da8c-4231-8583-47db6f9fa900_profile.png",
+            "desc":[
+                "Live Q&A Support",
+                "20k+ Students Enrolled",
+                "LeadsGuru Certificate"
+            ]
+        }
+    ]
+}
