@@ -1,11 +1,26 @@
 .footer{
+    padding: 40px 100px;
+    background-color: #706e6e;
+    color: white;
+    font-weight: 700;
+}
+.footer-contact-text{
+    width: 30vw;
+}
+.location-map{
+    border: 3px solid black;
+    width: 50vw;
+    height: 400px;
+}
+.footer-text{
+    margin-bottom: 30px;
+}
+.footer-down{
     color: white;
     background-color: black;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.footer div{
     font-weight: 600;
 }

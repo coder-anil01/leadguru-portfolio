@@ -3,19 +3,16 @@ import studentImg from '../image/student.png'
 import teacherImg from '../image/teacher.png' 
 import moneyImg from '../image/money.png'
 import liveclassImg from '../image/live-class.png'
-
-
 import '../style/MyBussiness.css'
 import axios from 'axios'
 
+
 const MyBussiness = () => {
-  const ApiLink = "https://coder-anil01.github.io/leadsguru-product/Data.json"
+  const ApiLink = "https://coder-anil01.github.io/products.json/Data.json"
   const [data, setData] = useState([])
 
   const getData = async()=>{
     const response = await axios.get(ApiLink)
-      console.log(response)
-      console.log(response.data.Data)
       setData(response.data.Data)
   }
   useEffect(()=>{
@@ -28,12 +25,12 @@ const MyBussiness = () => {
 
         <div className='bussiness-text-box'>
           <div className='flex-wrap'>
+            <img className='leadsguru-img' src="https://www.leadsguru.in/assets/img/hero-img-4.png" alt="" />
             <div className='bussiness-text'>
               <p>Innovation in education</p>
               <h1>Welcome to India’s</h1>
               <h2>Leading Learning Platform.</h2>
             </div>
-            <img className='leadsguru-img' src="https://www.leadsguru.in/assets/img/hero-img-4.png" alt="" />
           </div>
 
           <div className='flex-wrap'>
@@ -73,7 +70,7 @@ const MyBussiness = () => {
         <div className="product-container">
         {data.map((value)=>{
           return(
-            <div className='product-card'>
+            <a href={value.url} target='_blank' rel="noreferrer" className='product-card' key={value.id}>
               <img className='product-image' src={value.image} alt="" />
               <div className='product-price' >
                 <h3>₹{value.orgprice}</h3>
@@ -86,9 +83,9 @@ const MyBussiness = () => {
                 <li className='product-desc' >{value.desc[0]}</li>
                 <li className='product-desc' >{value.desc[1]}</li>
                 <li className='product-desc' >{value.desc[2]}</li>
-                <a className='product-button' href="/">View Details</a>
+                <a className='product-button' href={value.url} target='_blank' rel="noreferrer">View Details</a>
               </div>
-            </div>
+            </a>
             )
           })}
           </div>
