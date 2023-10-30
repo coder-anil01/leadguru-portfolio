@@ -2,7 +2,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Typed = () => {
   return (
-    <div className='App'>
+    <div className='typed'>
     <h2 style={{fontWeight: 'bold' }}>
     And I'm a{' '}
       <span style={{ color: '#0075ff', fontWeight: 'bold' }}>

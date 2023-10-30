@@ -53,11 +53,14 @@
     display: flex;
 }
 
+
 /* product-card */
 .product-container{
     display: flex;
+    width: 100vw;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 .product-card{
     text-decoration: none;
@@ -112,4 +115,36 @@
     margin: 10px 0;
     position: absolute;
     color: white;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 480px) {
+    .bussiness-text-box{
+        padding: 0 20px;
+    }
+    .leadsguru-img{
+        width: 100%;
+    }
+    .bussiness-grow-text{
+        width: 100vw;
+    }
+    .product-container{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-card{
+        text-decoration: none;
+        width: 80vw;
+        margin: 25px 0;
+    }
+    .product-image{
+        width: 80vw;
+    }
+    .product-price{
+        margin: -45px 0 0 40vw;
+        display: flex;
+    }
 }

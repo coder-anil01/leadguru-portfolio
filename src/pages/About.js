@@ -2,6 +2,7 @@ import { FaWhatsappSquare, FaInstagramSquare,FaLinkedin,FaFacebookSquare} from '
 import '../style/About.css'
 import homeimg from '../image/home-image.png'
 import Typed from '../component/Typed';
+
 const About = () => {
   return (
     <div>

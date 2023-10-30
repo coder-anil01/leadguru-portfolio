@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div className='footer-down'>
-          <div>@2023 made by Anil kumar</div>
+          <div>@2023 made by Coder Anil</div>
         </div>
 
       </footer>

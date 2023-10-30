@@ -1,18 +1,18 @@
 .about{
     padding: 30px 100px;
-    background-image: linear-gradient(90deg, rgb(245, 169, 254), rgb(176, 249, 150));
+    background-image: linear-gradient( rgb(245, 169, 254), rgb(176, 249, 150));
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
-    margin-top: 60px;
 }
 .about-1st-img{
     width: 400px;
     height: 430px;
+    
 }
 .about-1st-text{
     margin-top: 60px;
-    width: 40vw;
+    width: 40%;
 }
 .social-media-icon{
     margin: 40px 0 30px 0;
@@ -34,4 +34,26 @@
 }
 .about-mySelf-detail p{
     width: 240px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 480px) {
+    .about{
+        padding: 80px 20px;
+        background-image: linear-gradient(90deg, rgb(245, 169, 254), rgb(176, 249, 150));
+        margin-top: 30px;
+    }
+    .about-1st-img{
+        width: 90VW;
+        height: auto;
+    }
+    .about-1st-text{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .social-media-icon a{
+        font-size: 20px;
+        margin-right: 15px;
+        border: 2px solid #0075ff;
+    }
 }

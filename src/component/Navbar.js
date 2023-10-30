@@ -10,6 +10,7 @@ const Navbar = () => {
             <img className='nav-logo' src={Navlogo} alt="nav-logo" />
         </div>
       </nav>
+      <div className='navbar-buttom'></div>
     </div>
   )
 }

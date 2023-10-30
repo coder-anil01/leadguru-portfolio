@@ -11,3 +11,20 @@
     height: 50px;
     margin: 8px 0 0 40px;
 }
+.navbar-buttom{
+    margin-bottom: 60px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 480px) {
+    .nav{
+        height: 40px;
+    }
+    .nav-logo{
+        width: 150px;
+        height: 30px;
+        margin: 5px 0 0 20px;
+    }
+    .navbar-buttom{
+        margin-bottom: 40px;
+    }
+}
