@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/leadguru-portfolio/static/css/main.6395ac78.css",
-    "main.js": "/leadguru-portfolio/static/js/main.e7754c8a.js",
+    "main.css": "/leadguru-portfolio/static/css/main.af3a94fb.css",
+    "main.js": "/leadguru-portfolio/static/js/main.22bf60c7.js",
     "static/js/787.ade84887.chunk.js": "/leadguru-portfolio/static/js/787.ade84887.chunk.js",
     "static/media/home-image.png": "/leadguru-portfolio/static/media/home-image.8876e66617639889ee56.png",
     "static/media/coder-anil-nav.png": "/leadguru-portfolio/static/media/coder-anil-nav.f8e689c8f39a78057007.png",
     "static/media/student.png": "/leadguru-portfolio/static/media/student.66e6145980dd4480d739.png",
     "index.html": "/leadguru-portfolio/index.html",
-    "main.6395ac78.css.map": "/leadguru-portfolio/static/css/main.6395ac78.css.map",
-    "main.e7754c8a.js.map": "/leadguru-portfolio/static/js/main.e7754c8a.js.map",
+    "main.af3a94fb.css.map": "/leadguru-portfolio/static/css/main.af3a94fb.css.map",
+    "main.22bf60c7.js.map": "/leadguru-portfolio/static/js/main.22bf60c7.js.map",
     "787.ade84887.chunk.js.map": "/leadguru-portfolio/static/js/787.ade84887.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6395ac78.css",
-    "static/js/main.e7754c8a.js"
+    "static/css/main.af3a94fb.css",
+    "static/js/main.22bf60c7.js"
   ]
 }
