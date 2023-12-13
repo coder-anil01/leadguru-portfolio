@@ -5,10 +5,11 @@ import moneyImg from '../image/money.png'
 import liveclassImg from '../image/live-class.png'
 import '../style/MyBussiness.css'
 import axios from 'axios'
+// import video from '../image/'
 
 
 const MyBussiness = () => {
-  const ApiLink = "https://coder-anil01.github.io/products.json/Data.json"
+  const ApiLink = "https://coder-anil01.github.io/Data/Leadsguru.json"
   const [data, setData] = useState([])
 
   const getData = async()=>{
@@ -22,7 +23,7 @@ const MyBussiness = () => {
   return (
     <div className='bussiness-container'>
         <div className='main-head-opacity'>Bussiness</div>
-
+        <iframe className='youtube-video-ifrem' src="https://www.youtube.com/embed/iirRgy0nl9Y?si=AglobVqRI7lcePR7?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div className='bussiness-text-box'>
           <div className='flex-wrap'>
             <img className='leadsguru-img' src="https://www.leadsguru.in/assets/img/hero-img-4.png" alt="" />
@@ -66,6 +67,7 @@ const MyBussiness = () => {
           <h2>Our Exclusive Packages</h2>
           <p>With our exclusive packages, now you can be assured to acquire the best knowledge and expertise from our team of experts. We believe you can empower the world with industry-leading courses.</p>
         </div>
+
 {/* PRODUCT */}
         <div className="product-container">
         {data.map((value)=>{
